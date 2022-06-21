@@ -4,7 +4,7 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-    let n = ;
+    var n = parseInt(result.input);
 
 const e = n % 10;
 const d = parseInt(n / 10) % 10 ;
